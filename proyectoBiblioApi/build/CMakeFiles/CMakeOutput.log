@@ -1,6 +1,6 @@
 The system is: CYGWIN - 3.2.0(0.340/5/3) - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: C:/cygwin64/bin/gcc.exe 
+Compiler: C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "c:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/3.20.0/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/3.20.0/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: C:/cygwin64/bin/g++.exe 
+Compiler: C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe 
 Build flags: 
 Id flags:  
 
@@ -23,24 +23,24 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "c:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/3.20.0/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/3.20.0/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: c:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_bebdf/fast && /usr/bin/make  -f CMakeFiles/cmTC_bebdf.dir/build.make CMakeFiles/cmTC_bebdf.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o
-C:/cygwin64/bin/gcc.exe   -v -o CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.20.0/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_70f51/fast && /usr/bin/make  -f CMakeFiles/cmTC_70f51.dir/build.make CMakeFiles/cmTC_70f51.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o
+C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe   -v -o CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.20.0/Modules/CMakeCCompilerABI.c
 Using built-in specs.
-COLLECT_GCC=C:/cygwin64/bin/gcc
+COLLECT_GCC=C:/cygwin64/bin/x86_64-pc-cygwin-gcc
 Target: x86_64-pc-cygwin
 Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --srcdir=/mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --with-gcc-major-version-only --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /usr/share/cmake-3.20.0/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o -version -o /cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/ccZeWcH1.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /usr/share/cmake-3.20.0/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o -version -o /cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/ccJ3uSrg.s
 GNU C17 (GCC) version 10.2.0 (x86_64-pc-cygwin)
 	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.1.0, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -64,17 +64,17 @@ warning: GMP header version 6.2.0 differs from library version 6.2.1.
 warning: MPC header version 1.1.0 differs from library version 1.2.1.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 734d9bd8d3f826660b4544bd016c5bfa
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o /cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/ccZeWcH1.s
-GNU assembler version 2.35.2 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.35.2
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o /cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/ccJ3uSrg.s
+GNU assembler version 2.37 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_bebdf.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_bebdf.dir/link.txt --verbose=1
-C:/cygwin64/bin/gcc.exe -Wl,--enable-auto-import -v CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o -o cmTC_bebdf.exe -Wl,--out-implib,libcmTC_bebdf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_70f51.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_70f51.dir/link.txt --verbose=1
+C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe -Wl,--enable-auto-import -v CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o -o cmTC_70f51.exe -Wl,--out-implib,libcmTC_70f51.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
-COLLECT_GCC=C:/cygwin64/bin/gcc
+COLLECT_GCC=C:/cygwin64/bin/x86_64-pc-cygwin-gcc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe
 Target: x86_64-pc-cygwin
 Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --srcdir=/mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --with-gcc-major-version-only --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts
@@ -83,10 +83,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bebdf.exe' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/ccOuvkVG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_bebdf.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_bebdf.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bebdf.exe' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/cygdrive/c/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70f51.exe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/ccQLRGCq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_70f51.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_70f51.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70f51.exe' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/cygdrive/c/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -105,21 +105,21 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: c:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_bebdf/fast && /usr/bin/make  -f CMakeFiles/cmTC_bebdf.dir/build.make CMakeFiles/cmTC_bebdf.dir/build]
-  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o]
-  ignore line: [C:/cygwin64/bin/gcc.exe   -v -o CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.20.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_70f51/fast && /usr/bin/make  -f CMakeFiles/cmTC_70f51.dir/build.make CMakeFiles/cmTC_70f51.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o]
+  ignore line: [C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe   -v -o CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.20.0/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:/cygwin64/bin/gcc]
+  ignore line: [COLLECT_GCC=C:/cygwin64/bin/x86_64-pc-cygwin-gcc]
   ignore line: [Target: x86_64-pc-cygwin]
   ignore line: [Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --srcdir=/mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --with-gcc-major-version-only --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts]
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 10.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /usr/share/cmake-3.20.0/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o -version -o /cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/ccZeWcH1.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/cc1.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /usr/share/cmake-3.20.0/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o -version -o /cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/ccJ3uSrg.s]
   ignore line: [GNU C17 (GCC) version 10.2.0 (x86_64-pc-cygwin)]
   ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.0  MPFR version 4.1.0  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -143,17 +143,17 @@ Parsed C implicit link information from above output:
   ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 734d9bd8d3f826660b4544bd016c5bfa]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o /cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/ccZeWcH1.s]
-  ignore line: [GNU assembler version 2.35.2 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.35.2]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o /cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/ccJ3uSrg.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_bebdf.exe]
-  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_bebdf.dir/link.txt --verbose=1]
-  ignore line: [C:/cygwin64/bin/gcc.exe -Wl --enable-auto-import -v CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o -o cmTC_bebdf.exe -Wl --out-implib libcmTC_bebdf.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_70f51.exe]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_70f51.dir/link.txt --verbose=1]
+  ignore line: [C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe -Wl --enable-auto-import -v CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o -o cmTC_70f51.exe -Wl --out-implib libcmTC_70f51.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:/cygwin64/bin/gcc]
+  ignore line: [COLLECT_GCC=C:/cygwin64/bin/x86_64-pc-cygwin-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe]
   ignore line: [Target: x86_64-pc-cygwin]
   ignore line: [Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --srcdir=/mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --with-gcc-major-version-only --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts]
@@ -162,13 +162,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 10.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bebdf.exe' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/ccOuvkVG.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_bebdf.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_bebdf.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70f51.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/ccQLRGCq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_70f51.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o --out-implib libcmTC_70f51.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=/cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/ccOuvkVG.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/ccQLRGCq.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
@@ -201,7 +201,7 @@ Parsed C implicit link information from above output:
     arg [--dll-search-prefix=cyg] ==> ignore
     arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_bebdf.exe] ==> ignore
+    arg [cmTC_70f51.exe] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10]
@@ -212,9 +212,9 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib]
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10/../../..]
     arg [--enable-auto-import] ==> ignore
-    arg [CMakeFiles/cmTC_bebdf.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_70f51.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_bebdf.dll.a] ==> ignore
+    arg [libcmTC_70f51.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -243,21 +243,21 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: c:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/CMakeTmp
+Change Dir: c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_f4cd2/fast && /usr/bin/make  -f CMakeFiles/cmTC_f4cd2.dir/build.make CMakeFiles/cmTC_f4cd2.dir/build
-make[1]: Entering directory '/cygdrive/c/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o
-C:/cygwin64/bin/g++.exe   -v -o CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.20.0/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_8f4da/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f4da.dir/build.make CMakeFiles/cmTC_8f4da.dir/build
+make[1]: Entering directory '/cygdrive/c/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o
+C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe   -v -o CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.20.0/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
-COLLECT_GCC=C:/cygwin64/bin/g++
+COLLECT_GCC=C:/cygwin64/bin/x86_64-pc-cygwin-g++
 Target: x86_64-pc-cygwin
 Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --srcdir=/mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --with-gcc-major-version-only --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /usr/share/cmake-3.20.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o -version -o /cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/cc4mj0et.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /usr/share/cmake-3.20.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o -version -o /cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/cc4d593d.s
 GNU C++14 (GCC) version 10.2.0 (x86_64-pc-cygwin)
 	compiled by GNU C version 10.2.0, GMP version 6.2.0, MPFR version 4.1.0, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
@@ -284,17 +284,17 @@ warning: GMP header version 6.2.0 differs from library version 6.2.1.
 warning: MPC header version 1.1.0 differs from library version 1.2.1.
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 91598a8452df03f30a560d5af0d56f5c
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o /cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/cc4mj0et.s
-GNU assembler version 2.35.2 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.35.2
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o /cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/cc4d593d.s
+GNU assembler version 2.37 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_f4cd2.exe
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_f4cd2.dir/link.txt --verbose=1
-C:/cygwin64/bin/g++.exe -Wl,--enable-auto-import -v CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f4cd2.exe -Wl,--out-implib,libcmTC_f4cd2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_8f4da.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8f4da.dir/link.txt --verbose=1
+C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe -Wl,--enable-auto-import -v CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8f4da.exe -Wl,--out-implib,libcmTC_8f4da.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
-COLLECT_GCC=C:/cygwin64/bin/g++
+COLLECT_GCC=C:/cygwin64/bin/x86_64-pc-cygwin-g++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe
 Target: x86_64-pc-cygwin
 Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --srcdir=/mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --with-gcc-major-version-only --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts
@@ -303,10 +303,10 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 10.2.0 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4cd2.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/ccObGkjN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_f4cd2.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_f4cd2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4cd2.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/cygdrive/c/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f4da.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/cc5Fgevw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_8f4da.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_8f4da.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f4da.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/cygdrive/c/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -331,21 +331,21 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: c:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_f4cd2/fast && /usr/bin/make  -f CMakeFiles/cmTC_f4cd2.dir/build.make CMakeFiles/cmTC_f4cd2.dir/build]
-  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [C:/cygwin64/bin/g++.exe   -v -o CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.20.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make.exe -f Makefile cmTC_8f4da/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f4da.dir/build.make CMakeFiles/cmTC_8f4da.dir/build]
+  ignore line: [make[1]: Entering directory '/cygdrive/c/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe   -v -o CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.20.0/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:/cygwin64/bin/g++]
+  ignore line: [COLLECT_GCC=C:/cygwin64/bin/x86_64-pc-cygwin-g++]
   ignore line: [Target: x86_64-pc-cygwin]
   ignore line: [Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --srcdir=/mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --with-gcc-major-version-only --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts]
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 10.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /usr/share/cmake-3.20.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o -version -o /cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/cc4mj0et.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/cc1plus.exe -quiet -v -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api -idirafter /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/../../include/w32api /usr/share/cmake-3.20.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o -version -o /cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/cc4d593d.s]
   ignore line: [GNU C++14 (GCC) version 10.2.0 (x86_64-pc-cygwin)]
   ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.2.0  MPFR version 4.1.0  MPC version 1.1.0  isl version isl-0.22.1-GMP]
   ignore line: []
@@ -372,17 +372,17 @@ Parsed CXX implicit link information from above output:
   ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 91598a8452df03f30a560d5af0d56f5c]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o /cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/cc4mj0et.s]
-  ignore line: [GNU assembler version 2.35.2 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.35.2]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/as.exe -v -o CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o /cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/cc4d593d.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-pc-cygwin) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_f4cd2.exe]
-  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_f4cd2.dir/link.txt --verbose=1]
-  ignore line: [C:/cygwin64/bin/g++.exe -Wl --enable-auto-import -v CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f4cd2.exe -Wl --out-implib libcmTC_f4cd2.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_8f4da.exe]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8f4da.dir/link.txt --verbose=1]
+  ignore line: [C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe -Wl --enable-auto-import -v CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8f4da.exe -Wl --out-implib libcmTC_8f4da.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=C:/cygwin64/bin/g++]
+  ignore line: [COLLECT_GCC=C:/cygwin64/bin/x86_64-pc-cygwin-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe]
   ignore line: [Target: x86_64-pc-cygwin]
   ignore line: [Configured with: /mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0/configure --srcdir=/mnt/share/cygpkgs/gcc/gcc.x86_64/src/gcc-10.2.0 --prefix=/usr --exec-prefix=/usr --localstatedir=/var --sysconfdir=/etc --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=x86_64-pc-cygwin --host=x86_64-pc-cygwin --target=x86_64-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --with-gcc-major-version-only --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-tune=generic --enable-languages=c,c++,fortran,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --enable-libquadmath --enable-libquadmath-support --disable-libssp --enable-libada --disable-symvers --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id --with-default-libstdcxx-abi=gcc4-compatible --enable-libstdcxx-filesystem-ts]
@@ -391,13 +391,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 10.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-cygwin/10/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/:/usr/lib/gcc/x86_64-pc-cygwin/10/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f4cd2.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/ccObGkjN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_f4cd2.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_f4cd2.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8f4da.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe -plugin /usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe -plugin-opt=-fresolution=/cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/cc5Fgevw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id -m i386pep --wrap _Znwm --wrap _Znam --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwmRKSt9nothrow_t --wrap _ZnamRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --tsaware -o cmTC_8f4da.exe /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o -L/usr/lib/gcc/x86_64-pc-cygwin/10 -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib -L/usr/lib/gcc/x86_64-pc-cygwin/10/../../.. --enable-auto-import CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTC_8f4da.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/default-manifest.o /usr/lib/gcc/x86_64-pc-cygwin/10/crtend.o]
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/cyglto_plugin.dll] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-cygwin/10/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=/cygdrive/c/Users/HUMANI~1/AppData/Local/Temp/ccObGkjN.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/cygdrive/c/Users/GHOSTEC/AppData/Local/Temp/cc5Fgevw.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
@@ -430,7 +430,7 @@ Parsed CXX implicit link information from above output:
     arg [--dll-search-prefix=cyg] ==> ignore
     arg [--tsaware] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_f4cd2.exe] ==> ignore
+    arg [cmTC_8f4da.exe] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/crt0.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-cygwin/10/crtbegin.o] ==> ignore
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10]
@@ -441,9 +441,9 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../x86_64-pc-cygwin/lib]
     arg [-L/usr/lib/gcc/x86_64-pc-cygwin/10/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-cygwin/10/../../..]
     arg [--enable-auto-import] ==> ignore
-    arg [CMakeFiles/cmTC_f4cd2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_8f4da.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_f4cd2.dll.a] ==> ignore
+    arg [libcmTC_8f4da.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore

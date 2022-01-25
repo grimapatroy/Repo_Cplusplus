@@ -1,4 +1,4 @@
-# Install script for directory: c:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi
+# Install script for directory: c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "c:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

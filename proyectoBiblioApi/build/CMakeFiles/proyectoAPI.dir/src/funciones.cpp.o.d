@@ -1,5 +1,5 @@
 CMakeFiles/proyectoAPI.dir/src/funciones.cpp.o: \
- c\:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/src/funciones.cpp \
+ c\:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/src/funciones.cpp \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/iostream \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin/bits/c++config.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin/bits/os_defines.h \

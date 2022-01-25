@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "c:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/src/funciones.cpp" "CMakeFiles/proyectoAPI.dir/src/funciones.cpp.o" "gcc" "CMakeFiles/proyectoAPI.dir/src/funciones.cpp.o.d"
-  "c:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/src/main.cpp" "CMakeFiles/proyectoAPI.dir/src/main.cpp.o" "gcc" "CMakeFiles/proyectoAPI.dir/src/main.cpp.o.d"
+  "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/src/funciones.cpp" "CMakeFiles/proyectoAPI.dir/src/funciones.cpp.o" "gcc" "CMakeFiles/proyectoAPI.dir/src/funciones.cpp.o.d"
+  "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/src/main.cpp" "CMakeFiles/proyectoAPI.dir/src/main.cpp.o" "gcc" "CMakeFiles/proyectoAPI.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

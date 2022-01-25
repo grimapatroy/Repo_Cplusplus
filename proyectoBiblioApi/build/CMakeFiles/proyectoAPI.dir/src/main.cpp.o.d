@@ -1,5 +1,15 @@
 CMakeFiles/proyectoAPI.dir/src/main.cpp.o: \
- c\:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/src/main.cpp \
+ c\:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/src/main.cpp \
+ /usr/include/string.h /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/_newlib_version.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/reent.h \
+ /usr/include/_ansi.h /usr/lib/gcc/x86_64-pc-cygwin/10/include/stddef.h \
+ /usr/include/sys/_types.h /usr/include/machine/_types.h \
+ /usr/include/machine/_default_types.h /usr/include/sys/lock.h \
+ /usr/include/sys/cdefs.h /usr/include/sys/_locale.h \
+ /usr/include/strings.h /usr/include/sys/string.h \
+ c\:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/src/../include/funciones/strings.hpp \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/iostream \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin/bits/c++config.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin/bits/os_defines.h \
@@ -11,16 +21,7 @@ CMakeFiles/proyectoAPI.dir/src/main.cpp.o: \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/memoryfwd.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/postypes.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/cwchar /usr/include/wchar.h \
- /usr/include/_ansi.h /usr/include/newlib.h \
- /usr/include/_newlib_version.h /usr/include/sys/config.h \
- /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
- /usr/include/cygwin/config.h /usr/include/sys/reent.h \
- /usr/lib/gcc/x86_64-pc-cygwin/10/include/stddef.h \
- /usr/include/sys/_types.h /usr/include/machine/_types.h \
- /usr/include/machine/_default_types.h /usr/include/sys/lock.h \
- /usr/include/sys/cdefs.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/stdarg.h \
- /usr/include/sys/_locale.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/exception \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/exception.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/exception_ptr.h \
@@ -53,7 +54,7 @@ CMakeFiles/proyectoAPI.dir/src/main.cpp.o: \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/localefwd.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin/bits/c++locale.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/clocale \
- /usr/include/locale.h /usr/include/_ansi.h \
+ /usr/include/locale.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/cctype /usr/include/ctype.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/ios_base.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/ext/atomicity.h \
@@ -123,7 +124,7 @@ CMakeFiles/proyectoAPI.dir/src/main.cpp.o: \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/ostream.tcc \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/istream \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/istream.tcc \
- /usr/include/string.h /usr/include/strings.h /usr/include/sys/string.h \
- c\:/Users/Humanitroy/Documents/REPORTORIO_DEVELOMENT/DEV_ALGORITMOS/CURSO_ALGORITMOS/leccion4/proyectoBiblioApi/src/../include/funciones/strings.hpp \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/math.h \
- /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/cmath /usr/include/math.h
+ /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/cmath /usr/include/math.h \
+ c\:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/src/../include/funciones/tokens.hpp \
+ c\:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/src/../include/funciones/strings.hpp
