@@ -7,6 +7,38 @@
 
 using namespace std;
 
+// ----------------------------------------------------------------
+   struct Persona
+   {
+      int dni;
+      string nombre;
+   };
+
+   Persona persona(int a ,string n){
+      return {a,n};
+   }
+
+   string personaToString(Persona p){
+      // devuelve addToken
+      return intToString(p.dni) + "," + p.nombre;
+   }
+
+   int cmpPersonaDNI(Persona p,int dni)
+   {
+      return p.dni-dni;
+   }
+
+
+   Persona personaFromString(string a){
+      Persona p;
+      p.dni=0;// tokenizar a
+      p.nombre=a;// tokenizar a
+      return p;
+   }
+
+// ----------------------------------------------------------------
+
+
 template<typename T>
 struct Coll
 {
@@ -77,15 +109,26 @@ T collGetAt(Coll<T> c,int p,T tFromString(string))
    return t; 
 }
 
-// obj0 |obj1 |obj2 |obj3 |obj4
+// obj0 |obj1 |obj2 |obj3 |obj4   -------- k
 template <typename T, typename K>
 int collFind(Coll<T> c,K k,int cmpTK(T,K),T tFromString(string))
 // int collFind(Coll<T> c,K   k,int cmpTK(T,K),string kToString(K))
 {
+   int i;
    T t =tFromString(c.s) ;
+   int pos = cmpTK(t,k)>0?1:cmpTK(t,k)<0?-1:0;
+   
+
+   for (i = 0; i < collSize(c); i++)
+   {
+      /* code */
+   }
    
 
    return findToken(c.s,c.sep,k)>0?findToken(c.s,c.sep,k):-1;
+   // ahi que recorrer la colleccion y comprar el elemento 
+
+   // return pos;
 
 }
 

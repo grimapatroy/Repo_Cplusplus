@@ -4,7 +4,7 @@
 # compile CXX with C:/cygwin64/bin/x86_64-pc-cygwin-g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = -Ic:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1/include
+CXX_INCLUDES = -Ic:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1/include
 
 CXX_FLAGS = -O3 -DNDEBUG
 

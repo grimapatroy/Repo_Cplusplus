@@ -1,4 +1,4 @@
-# Install script for directory: c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1
+# Install script for directory: c:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "c:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
