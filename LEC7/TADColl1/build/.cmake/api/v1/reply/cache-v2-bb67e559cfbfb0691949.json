@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1/build"
+			"value" : "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1"
+			"value" : "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1235,7 +1235,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "c:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1/build"
+			"value" : "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1/build"
 		},
 		{
 			"name" : "TADfecha_SOURCE_DIR",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "c:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1"
+			"value" : "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1"
 		}
 	],
 	"kind" : "cache",

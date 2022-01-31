@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "modelo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-modelo-Release-1e5ef9d2041ad2debc7b.json",
+					"jsonFile" : "target-modelo-Release-b8aecf073128b5f33bc2.json",
 					"name" : "modelo",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "c:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1/build",
-		"source" : "c:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1"
+		"build" : "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1/build",
+		"source" : "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1"
 	},
 	"version" : 
 	{

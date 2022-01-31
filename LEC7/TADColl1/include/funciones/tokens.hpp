@@ -59,16 +59,19 @@ void removeTokenAt(string& s,char sep, int i)
    }
 }
 
+
+//revisar set token esta malalgo
 void setTokenAt(string& s,char sep, string t,int i)
 {
    if (i==0)
    {
-      s= t+charToString(sep) + substring(s, indexOfN(s,sep,i+1),length(s));
+      s= t + substring(s, indexOfN(s,sep,i+1),length(s));
       
    }else{
       if (charCount(s,sep)+1==i)
       {
          s= s+charToString(sep) + t;
+// error se duplica
       }else{
          s= substring(s,0,indexOfN(s,sep,i))+ t+charToString(sep)+substring(s,
          indexOfN(s,sep,i)+1,length(s));

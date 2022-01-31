@@ -17,24 +17,35 @@ using namespace std;
    Persona persona(int a ,string n){
       return {a,n};
    }
-
+// ---------------------------------------------------------
    string personaToString(Persona p){
       // devuelve addToken
       return intToString(p.dni) + "," + p.nombre;
    }
 
+   Persona personaFromString(string a){
+      Persona p;
+      p.dni=stringToInt(getTokenAt(a,',',0));// destokenizar a
+      p.nombre=getTokenAt(a,',',1);// tokenizar a
+      return p;
+   }
+
+
+// ---------------------------------------------------------
+
    int cmpPersonaDNI(Persona p,int dni)
    {
       return p.dni-dni;
    }
+// ------------------------------------
+   int cmpPersonaNombre(Persona p, string k){
 
-
-   Persona personaFromString(string a){
-      Persona p;
-      p.dni=0;// tokenizar a
-      p.nombre=a;// tokenizar a
-      return p;
+      return p.nombre<k?-1:p.nombre>k?1:0;
    }
+   int cmpPersonaNombre2(Persona p1,Persona p2){
+      return p1.nombre<p2.nombre?-1:p1.nombre>p2.nombre?1:0;
+   }
+
 
 // ----------------------------------------------------------------
 
@@ -109,34 +120,77 @@ T collGetAt(Coll<T> c,int p,T tFromString(string))
    return t; 
 }
 
+
+// 33,joel | 44,Pedro | 55,Ramon |15,Lili | 20,Lesli
 // obj0 |obj1 |obj2 |obj3 |obj4   -------- k
+// coll c
 template <typename T, typename K>
 int collFind(Coll<T> c,K k,int cmpTK(T,K),T tFromString(string))
-// int collFind(Coll<T> c,K   k,int cmpTK(T,K),string kToString(K))
 {
    int i;
-   T t =tFromString(c.s) ;
-   int pos = cmpTK(t,k)>0?1:cmpTK(t,k)<0?-1:0;
-   
-
    for (i = 0; i < collSize(c); i++)
    {
-      /* code */
+      T t =tFromString(getTokenAt(c.s,c.sep,i)) ;
+      if(cmpTK(t,k)==0){
+         return i;
+      }
    }
-   
-
-   return findToken(c.s,c.sep,k)>0?findToken(c.s,c.sep,k):-1;
-   // ahi que recorrer la colleccion y comprar el elemento 
-
-   // return pos;
-
+   return -1;
 }
 
+
+// 33,Dedro | 44,Bablo | 55,Carlos |15,Auan | 20,Lesli
+// obj0 |obj1 |obj2 |obj3 |obj4   -------- k
 template <typename T>
 void collSort(Coll<T>& c,int cmpTT(T,T),T tFromString(string),string tToString(T))
 {
-
+   T temporal;
+   int j;
+   bool ordenado = false;
+   int rondas = 0;
+                  // temporal = t1;
+                  // setTokenAt(c.s,c.sep,tToString(t2),j);
+                  // // "44,Dedro|22,Bablo|33,Carlos|11,Auan|33,Carlos" ==5
+                  // int aux=collSize(c);
+                  // if (j+1==aux)
+                  // {
+                  //    removeTokenAt(c.s,c.sep,collSize(c));
+                  //    break;
+                  // }else{
+                  //    removeTokenAt(c.s,c.sep,j);
+                  //    setTokenAt(c.s,c.sep,tToString(temporal),j+1);
+                  // }
+      while (!ordenado)
+      {
+         ordenado = true;
+         for ( j = 0; j <collSize(c)-1-rondas; j++)
+         {
+            T t1 = tFromString(getTokenAt(c.s,c.sep,j));
+            T t2 = tFromString(getTokenAt(c.s,c.sep,j+1));
+            if (cmpTT(t1,t2)<0)
+            {
+               temporal = t1;
+               if (collSize(c)-1==rondas+1)
+               {
+                  setTokenAt(c.s,c.sep,tToString(t2),j);
+                  setTokenAt(c.s,c.sep,tToString(temporal),j+1);
+                  removeTokenAt(c.s,c.sep,j+2);
+                  ordenado = true;
+                  break;
+               }
+               setTokenAt(c.s,c.sep,tToString(t2),j);
+               removeTokenAt(c.s,c.sep,j+2);
+                  // removeTokenAt(c.s,c.sep,j+1);
+               ordenado = false;
+            }
+         }
+         rondas++;
+      }
+      
 }
+
+
+
 
 // obj0 |obj1 |obj2 |obj3 |obj4
 template<typename T>
@@ -159,6 +213,9 @@ bool collHasNext(Coll<T> c)
    }
 }
 
+
+
+
 // obj0 |obj1 |obj2 |obj3 |obj4
 template<typename T>
 T collNext(Coll<T>& c,T tFromString(string))
@@ -168,12 +225,17 @@ T collNext(Coll<T>& c,T tFromString(string))
    return t;
 }
 
+
+
+
 template<typename T>
 T collNext(Coll<T>& c,bool& endOfColl,T tFromString(string))
 {
    T t;
    return t;
 }
+
+
 
 // obj0 |obj1 |obj2 |obj3 |obj4
 template<typename T>
@@ -187,7 +249,6 @@ void collReset(Coll<T>& c)
 //    {
 //       /* code */
 //    }
-   
 // }
 
 

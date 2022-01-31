@@ -1,5 +1,5 @@
 CMakeFiles/modelo.dir/src/main.cpp.o: \
- c\:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1/src/main.cpp \
+ c\:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1/src/main.cpp \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/iostream \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin/bits/c++config.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin/bits/os_defines.h \
@@ -123,10 +123,10 @@ CMakeFiles/modelo.dir/src/main.cpp.o: \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/ostream.tcc \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/istream \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/bits/istream.tcc \
- c\:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1/src/../include/tads/Coll.hpp \
- c\:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1/src/../include/tads/../funciones/strings.hpp \
+ c\:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1/src/../include/tads/Coll.hpp \
+ c\:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1/src/../include/tads/../funciones/strings.hpp \
  /usr/include/string.h /usr/include/strings.h /usr/include/sys/string.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/math.h \
  /usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/cmath /usr/include/math.h \
- c\:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1/src/../include/tads/../funciones/tokens.hpp \
- c\:/Users/Humanitroy/Documents/CAPF22/Repo_Cplusplus/LEC7/TADColl1/src/../include/tads/../funciones/strings.hpp
+ c\:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1/src/../include/tads/../funciones/tokens.hpp \
+ c\:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADColl1/src/../include/tads/../funciones/strings.hpp
