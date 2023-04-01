@@ -1,3 +1,0 @@
-c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/rebuild_cache.dir
-c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/edit_cache.dir
-c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/proyectoBiblioApi/build/CMakeFiles/proyectoAPI.dir

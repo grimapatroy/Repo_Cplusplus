@@ -7,6 +7,7 @@
 
 using namespace std;
 
+int GLOBAL =-1, GLOBAL1=-1;
 // ----------------------------------------------------------------
    struct Persona
    {
@@ -45,6 +46,13 @@ using namespace std;
    int cmpPersonaNombre2(Persona p1,Persona p2){
       return p1.nombre<p2.nombre?-1:p1.nombre>p2.nombre?1:0;
    }
+
+
+// ----------------------------------------------------------------
+string stringFromString(string cadena){
+
+   return cadena;
+}
 
 
 // ----------------------------------------------------------------
@@ -148,18 +156,6 @@ void collSort(Coll<T>& c,int cmpTT(T,T),T tFromString(string),string tToString(T
    int j;
    bool ordenado = false;
    int rondas = 0;
-                  // temporal = t1;
-                  // setTokenAt(c.s,c.sep,tToString(t2),j);
-                  // // "44,Dedro|22,Bablo|33,Carlos|11,Auan|33,Carlos" ==5
-                  // int aux=collSize(c);
-                  // if (j+1==aux)
-                  // {
-                  //    removeTokenAt(c.s,c.sep,collSize(c));
-                  //    break;
-                  // }else{
-                  //    removeTokenAt(c.s,c.sep,j);
-                  //    setTokenAt(c.s,c.sep,tToString(temporal),j+1);
-                  // }
       while (!ordenado)
       {
          ordenado = true;
@@ -190,48 +186,46 @@ void collSort(Coll<T>& c,int cmpTT(T,T),T tFromString(string),string tToString(T
 }
 
 
-
-
 // obj0 |obj1 |obj2 |obj3 |obj4
 template<typename T>
 bool collHasNext(Coll<T> c)
 {
-   bool sg = true;
-   int contador=0,i;
+
    if (tokenCount(c.s,c.sep)==0)
    {
-      return false;
+         return false;
    }
    else
    {
-      for ( i = tokenCount(c.s,c.sep); i >0; i--)
+      while (++GLOBAL<tokenCount(c.s,c.sep))
       {
-
-
+         // GLOBAL++;
          return true;
       }
    }
+   return false;
 }
-
-
 
 
 // obj0 |obj1 |obj2 |obj3 |obj4
 template<typename T>
-T collNext(Coll<T>& c,T tFromString(string))
+T collNext(Coll<T>& c,T tFromStrGLOBALng(string))
 {
-   T t;
-
+   T t = tFromStrGLOBALng(getTokenAt(c.s,c.sep,GLOBAL));
    return t;
 }
 
 
-
-
+// obj0 |obj1 |obj2 |obj3 |obj4
 template<typename T>
 T collNext(Coll<T>& c,bool& endOfColl,T tFromString(string))
 {
    T t;
+   endOfColl = ++GLOBAL<tokenCount(c.s,c.sep)?true:false;
+   if(endOfColl and ++GLOBAL1<tokenCount(c.s,c.sep))
+   {
+      t = tFromString(getTokenAt(c.s,c.sep,GLOBAL1));
+   }
    return t;
 }
 
@@ -241,15 +235,8 @@ T collNext(Coll<T>& c,bool& endOfColl,T tFromString(string))
 template<typename T>
 void collReset(Coll<T>& c)
 {
-   
+   GLOBAL = -1;
+   GLOBAL1 = -1;
 }
-
-// void collMostrar(Coll c){
-//    for (int i = 0; i < collSize<int>(c); i++)
-//    {
-//       /* code */
-//    }
-// }
-
 
 #endif

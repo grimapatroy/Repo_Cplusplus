@@ -1,3 +1,0 @@
-c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADCollTrucha/build/CMakeFiles/rebuild_cache.dir
-c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADCollTrucha/build/CMakeFiles/edit_cache.dir
-c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC7/TADCollTrucha/build/CMakeFiles/modelo.dir

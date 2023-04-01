@@ -9,9 +9,9 @@ using namespace std;
 
 int length(string s)
 {
-    int i ;
-    for ( i = 0; s[i] != '\0'; i++);
-    return i;
+   int i ;
+   for ( i = 0; s[i] != '\0'; i++);
+   return i;
 }
 
 int charCount(string s,char c)

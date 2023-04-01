@@ -45,5 +45,8 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "cmake.cmakePath": "/opt/cmake/bin//cmake",
+    "C_Cpp.default.compilerPath": "/usr/bin/",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }

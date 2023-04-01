@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "c:/Users/GHOSTEC/Documents/CAPF/Repo_Cplusplus/LEC6/miTemplate/src/main.cpp" "CMakeFiles/modelo.dir/src/main.cpp.o" "gcc" "CMakeFiles/modelo.dir/src/main.cpp.o.d"
+  "/home/jguivar/Documentos/LAFP2022/Repo_Cplusplus/LEC6/miTemplate/src/main.cpp" "CMakeFiles/modelo.dir/src/main.cpp.o" "gcc" "CMakeFiles/modelo.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
